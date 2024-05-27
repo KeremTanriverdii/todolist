@@ -26,7 +26,7 @@ function TodoItems({ todos, deleteItemHandler, completeItemHandler }) {
                             />
                             <label className='m-0'>{todo.text}</label>
                             <button className='btn btn-sm btn-danger ms-auto'
-                                onClick={() => deleteItemHandler(todo.id)}>Delete</button>
+                                onClick={() => deleteItemHandler(todo.id)}>Sil</button>
                         </div>
                     )}
                 </li>
