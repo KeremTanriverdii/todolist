@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+    background: linear-gradient(to top, #6600ff 0%, #ff99cc 100%);
+}
+
+
+.custom {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.alertDisplay {
+    width: 100%;
+
+}
+
+@media (min-width: 768px) {
+    .custom {
+        width: 100%;
+        height: 100%;
+        font-size: 20;
+        /* Daha büyük ekranlarda daha yüksek bir liste */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .custom {
+        width: 100%;
+        height: 100%;
+        font-size: 16;
+        /* Orta boyutlu ekranlarda biraz daha küçük */
+    }
+
+    .alertButton {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .custom {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        /* Küçük ekranlarda daha küçük bir liste */
+    }
+
+    .alertButton {
+        display: none;
+        font-size: 4px;
+        margin-left: 5px;
+    }
+}
