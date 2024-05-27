@@ -104,7 +104,7 @@ function Todo() {
                         )}
 
                         <div className="d-flex align-items-center gap-2 mb-2">
-                            <h5 className="me-auto mb-0">Todo Liste</h5>
+                            <h5 className="me-auto mb-0">Todo Listesi</h5>
 
                             <button type="button" className="btn btn-sm btn-success done"
                                 onClick={getCompletedList}>Yapılanlar</button>
