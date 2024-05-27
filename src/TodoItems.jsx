@@ -13,8 +13,8 @@ function TodoItems({ todos, deleteItemHandler, completeItemHandler }) {
                     {todo.isDone ? (
                         <div className='d-flex list-item'>
                             <p className='m-0 me-auto'>{todo.text}</p>
-                            <button className='btn btn-sm btn-close btn-danger ms-auto'
-                                type='button' onClick={() => deleteItemHandler(todo.id)}></button>
+                            <button className='btn btn-sm btn-danger ms-auto'
+                                type='button' onClick={() => deleteItemHandler(todo.id)}>Sil</button>
                         </div>
                     ) : (
                         <div className="d-flex align-items-center">
